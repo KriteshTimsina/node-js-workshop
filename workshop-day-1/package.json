@@ -18,5 +18,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  }
+  },
+  "_moduleAliases": {
+   "@":"../src"
+  },
+  "_moduleDirectories": ["node_modules_custom"]
 }
