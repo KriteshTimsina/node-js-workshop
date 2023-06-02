@@ -14,13 +14,16 @@
     "dotenv": "^16.1.3",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "module-alias": "^2.2.2"
+    "module-alias": "^2.2.2",
+    "sequelize": "^6.32.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
   },
   "_moduleAliases": {
-   "@":"../src"
+    "@": "../src"
   },
-  "_moduleDirectories": ["node_modules_custom"]
+  "_moduleDirectories": [
+    "node_modules_custom"
+  ]
 }
